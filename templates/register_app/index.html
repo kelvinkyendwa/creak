@@ -4,6 +4,10 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
 <link rel="stylesheet" href="main.css"/>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script
+  src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+  integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+  crossorigin="anonymous"></script>
   <title>Register App</title>
   </head>
     <body>
@@ -14,7 +18,7 @@
         <a href="//convertify.io"><img am-TopLogo alt="SECUREVIEW"  src="http://blog.convertify.io/assets/images/logo--hero.png" class="img-responsive"></a>
       </div>
       <div class="col-xs-5 col-xs-offset-1 col-sm-5 col-sm-offset-0 text-right ">
-        <p am-CallNow>1 (888) CALL - NOW</p>
+        <p am-jCallNow>1 (888) CALL - NOW</p>
       </div>
     </div> <!-- End Topper -->
     <!-- Navigation -->
@@ -35,7 +39,7 @@
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav js-nav-add-active-class">
-            
+
               <li class="visible-xs-block"><a href="/about.html">About Us</a></li>
               <li class="visible-xs-block"><a href="/careers.html">Careers</a></li>
               <li class="visible-xs-block"><a href="/press-release.html">Press Release</a></li>
@@ -57,10 +61,12 @@
       </nav>
     </div>
   </div>
+  <div class="container alert alert-success alert-dismissable">
+    <strong>{{ insert_2 }}</strong>
+  </div>
 
 
 
-    {{ insert_2 }}
 
     <div class="container">
     <h1 class="well">Registration Form</h1>
