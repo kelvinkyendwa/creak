@@ -19,8 +19,11 @@ from django.conf.urls import include
 from register_app import views
 
 urlpatterns = [
-    # url(r'^$',views.index, name='index'),
+    url(r'^$',views.index, name='index'),
     url(r'^register_app/',include('register_app.urls')),
+    url(r'^help/', include('register_app.urls')),
+    url(r'^register/', include('register_app.urls')),
     url(r'^first_app/',include('first_app.urls')),
     url(r'^admin/', admin.site.urls),
+
 ]
